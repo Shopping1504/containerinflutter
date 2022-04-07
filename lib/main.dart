@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You pushed the button this many times :',
+              'You have pushed the button this many times :',
             ),
             Text(
               '$_counter',
