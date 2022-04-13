@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'check :',
+              'Check Price:',
             ),
             Text(
               '$_counter',
