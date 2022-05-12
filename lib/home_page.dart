@@ -12,7 +12,12 @@ class ProductInfo{
 
 // array trong flutter
 final product = [
-ProductInfo("Iphone 13 Pro Max", 32000000)
+ProductInfo("Iphone 13 Pro Max", 32000000),
+  ProductInfo("Iphone 12 Pro Max", 32000000),
+  ProductInfo("Iphone 11 Pro Max", 32000000),
+  ProductInfo("Iphone 10 Pro Max", 32000000),
+  ProductInfo("Iphone 8 Plus", 32000000),
+
 ];
 
 class HomePage extends StatelessWidget {
