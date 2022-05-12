@@ -3,11 +3,14 @@ import 'dart:ffi';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+// sự khác nhau của final và const trong flutter
 class ProductInfo{
   String? name;
   double? price;
   ProductInfo(this.name,this.price);
 }
+
+// array trong flutter
 final product = [
 ProductInfo("Iphone 13 Pro Max", 32000000)
 ];
