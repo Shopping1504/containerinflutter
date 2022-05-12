@@ -3,6 +3,15 @@ import 'dart:ffi';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+class ProductInfo{
+  String? name;
+  double? price;
+  ProductInfo(this.name,this.price);
+}
+final product = [
+ProductInfo("Iphone 13 Pro Max", 32000000)
+];
+
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -10,14 +19,14 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Padding(
+            const Padding(
               padding: EdgeInsets.only(top: 80),
             ),
             const Text(
               "Bluetooth mouse",
               style: TextStyle(fontSize: 20, color: Colors.red),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.only(top: 40),
             ),
             SizedBox(
@@ -27,7 +36,7 @@ class HomePage extends StatelessWidget {
                 inputFormatters: [FilteringTextInputFormatter.digitsOnly],
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.only(top: 40),
             ),
             ElevatedButton(
