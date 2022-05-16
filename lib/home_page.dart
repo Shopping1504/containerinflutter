@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -17,7 +15,6 @@ ProductInfo("Iphone 13 Pro Max", 32000000),
   ProductInfo("Iphone 11 Pro Max", 32000000),
   ProductInfo("Iphone 10 Pro Max", 32000000),
   ProductInfo("Iphone 8 Plus", 32000000),
-
 ];
 
 class HomePage extends StatelessWidget {
