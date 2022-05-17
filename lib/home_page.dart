@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 
 // sự khác nhau của final và const trong flutter
 class ProductInfo{
-  String? name;
-  double? price;
+  final String name;
+  final double price;
   ProductInfo(this.name,this.price);
 }
 
