@@ -5,7 +5,9 @@ import 'package:flutter/services.dart';
 class ProductInfo{
   final String name;
   final double price;
-  ProductInfo(this.name,this.price);
+
+  ProductInfo(this.name, this.price);
+
 }
 
 // array trong flutter
